@@ -1,0 +1,62 @@
+*{
+    /* background-color: cadetblue; */
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    /* background-image: url(download\ \(1\).jpg); */
+}
+
+#container{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    background-color: pink;
+    padding: 2em;
+    margin-top: 150px;
+    border-radius: 5%;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.btn > button {
+    border: 0;
+    background-color: pink;
+    font-size: 1.5em;
+}
+
+.btn > button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#photo > img{
+    padding: 2em;
+    border-radius: 15%;
+}
+
+h4{
+    margin-bottom: 1.5em;
+}
+
+#controls{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#progress{
+    width: 300px;
+    margin-bottom: 2em;
+}
+
+#controls :hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}

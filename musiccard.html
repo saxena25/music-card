@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41608ea355.js" crossorigin="anonymous"></script>
+    <title>music card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <nav class="btn">
+            <button><i class="fa-solid fa-bars"></i></button>
+            <button><i class="fa-solid fa-house"></i></button>
+            <button><i class="fa-solid fa-xmark"></i></i></button>         
+        </nav>
+        <div id="photo"> 
+            <img src="download.jpg" alt="">
+        </div>
+        <h2>बालाजी अच्छा लागे से</h2>
+        <h4>Kanhaiya Mittal</h4>
+        <audio id="music">
+            <source src="Balaji Achha Lage Se Kanhaiya Mittal(StarSong.In).mp3" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" id="progress">
+        <div id="controls">
+            <div><i class="fa-solid fa-backward"></i></div>
+            <div><i class="fa-solid fa-play" id="playbtn"></i></div>
+            <div><i onclick="playPause()" class="fa-solid fa-pause" id="ctrlIcon"></i></div>
+            <div><i class="fa-solid fa-forward"></i></div>  
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
